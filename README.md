@@ -1,3 +1,15 @@
+# PyTorch Sentiment Analysis with Hong Kongese Language Identification
+
+This repo contains modifications to the original PyTorch Sentiment Analysis tutorial to make it run with the Hong Kongese language identification data set. Hong Kongese is also known as Cantonese or Yue.
+
+The data set is located in data/language/1000, which contains news/blog articles from Hong Kong news sites. There are 1000 articles in each of Hong Kongese and Chinese, with a very small number of English articles as well.
+
+The notebooks have names like "5 - Multi-class Sentiment Analysis-Language-(number).ipynb," which are basically records of results with different data set sizes. Use the 1000 version if you want to run this yourself.
+
+The model directory contains the trained model from the 1000 data set. You can use them to make classifications.
+
+The following are from the original README.
+
 # PyTorch Sentiment Analysis
 
 This repo contains tutorials covering how to do sentiment analysis using [PyTorch](https://github.com/pytorch/pytorch) 0.4 and [TorchText](https://github.com/pytorch/text) 0.3 using Python 3.6.
